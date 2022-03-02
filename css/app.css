@@ -1,0 +1,73 @@
+button,
+.button {
+  border-radius: 0%;
+  border: 5px solid #fff;
+  color: #fff;
+  height: 45px;
+  transition: all 500ms;
+}
+button:hover,
+.button:hover {
+  border: 5px solid #fff;
+  background-color: #fff;
+  color: rgb(51 195 240);
+  transition: all 500ms;
+}
+button:visited,
+button:active,
+.button:visited,
+.button:active {
+  border: 5px solid #fff;
+  color: rgb(51 195 240);
+}
+
+.nav {
+  position: absolute;
+  right: 0;
+  margin-top: 10px;
+}
+
+.nav > .button {
+  color: #fff;
+}
+.nav > .button:hover {
+  color: rgb(51 195 240);
+}
+
+.welcome {
+  background-color: rgb(51 195 240 / 100%);
+  padding: 20px;
+  margin-top: 25%;
+}
+
+@media (min-width: 550px) {
+  .welcome {
+    margin-left: 50px;
+  }
+}
+
+.home-background {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(51, 195, 240, 1) 100%
+  );
+
+  max-width: 100%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.jobs-widget-page-background {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(51, 195, 240, 1) 100%
+  );
+
+  max-width: 100%;
+  width: 100vw;
+  height: 100vh;
+}
