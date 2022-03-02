@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Company XYZ</title>
+  <title>Company XYZ | Jobs</title>
   <meta name="description" content="We are a team of cookie connoisseurs. Want to join the madness?">
   <meta name="author" content="Cookie Monster">
 
@@ -33,11 +33,38 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
-      <div class="two-thirds column" style="margin-top: 25%">
-        <h4>Welcome</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut libero nec lectus molestie venenatis. Nunc mattis erat rutrum velit ultrices ullamcorper. Nunc et porttitor odio, nec dapibus mauris. Sed id dolor nec urna tincidunt tincidunt. Donec porta malesuada justo, vitae viverra nunc commodo at. Vivamus consectetur arcu at sapien dictum feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a class="button" href="/jobs-popup-view.html">Jobs Widget Popup View</a> <button disabled>Jobs Widget Fullscreen View</button>
-      </div>
+        <div class="twelve column" style="margin-top: 25%">
+        <a class="button" href="/jobs-popup-view.html">Jobs Widget Popup View</a> <button disabled>Jobs Widget Fullscreen View</button> <a class="button button-primary" href="/index.html">Home</a> 
+        <h4>Jobs Widget Fullscreen View</h4>
+        <div id="recruitee-careers"></div>
+        <script type="text/javascript" src="https://d10zminp1cyta8.cloudfront.net/widget.js"></script>
+        <script type="text/javascript">
+            var widget = new RTWidget({ 
+                "companies": [
+                61368
+                ],
+                "detailsMode": "overlay",
+                "language": "en",
+                "departmentsFilter": [],
+                "themeVars": {
+                "primary": "#1999e3",
+                "secondary": "#000",
+                "text": "#5c6f78",
+                "textDark": "#37474f",
+                "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, \"Lucida Grande\", sans-serif;",
+                "baseFontSize": "16px"
+                },
+                "flags": {
+                "showLocation": true,
+                "showCountry": true,
+                "showCity": true,
+                "groupByLocation": false,
+                "groupByDepartment": false,
+                "groupByCompany": false
+                }
+                });
+        </script>
+        </div>
     </div>
   </div>
 
