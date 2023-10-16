@@ -72,7 +72,7 @@ button:active,
 }
 
 
-#recruitee-careers .rt-theme-light.rt-body {
-  box-shadow: none;
+.rt-body {
+  box-shadow: none !importants;
   border-radius: 0;
 }
