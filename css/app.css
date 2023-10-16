@@ -73,6 +73,6 @@ button:active,
 
 
 .rt-body {
-  box-shadow: none !importants;
-  border-radius: 0;
+  box-shadow: none !important;
+  border-radius: 0 !important;
 }
