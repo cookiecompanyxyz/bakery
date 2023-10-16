@@ -70,3 +70,9 @@ button:active,
   width: 100vw;
   height: 100vh;
 }
+
+
+#recruitee-careers .rt-theme-light.rt-body {
+  box-shadow: none;
+  border-radius: 0;
+}
