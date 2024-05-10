@@ -73,3 +73,18 @@ button:active,
 
 
 #recruitee-careers .rt-theme-light.rt-body {  box-shadow: none !important;  border-radius: 0 !important;}
+
+
+
+#recruitee-careers-details-container .rt-theme-light.rt-details__outer--popup .rt-details__inner, #recruitee-careers .rt-theme-light.rt-details__outer--popup .rt-details__inner {
+  background: #72b2d8;
+}
+
+#recruitee-careers-details-container .rt-theme-light .rt-details__heading, #recruitee-careers .rt-theme-light .rt-details__heading {
+
+  background: #0078d2;
+}
+
+#recruitee-careers-details-container .rt-details__inner {
+  border-radius: 74px;
+}
